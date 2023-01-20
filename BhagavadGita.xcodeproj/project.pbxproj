@@ -16,6 +16,7 @@
 		0DAADC9D297AF04C0073DA95 /* BhagavadGitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAADC9C297AF04C0073DA95 /* BhagavadGitaTests.swift */; };
 		0DAADCA7297AF04C0073DA95 /* BhagavadGitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAADCA6297AF04C0073DA95 /* BhagavadGitaUITests.swift */; };
 		0DAADCA9297AF04C0073DA95 /* BhagavadGitaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAADCA8297AF04C0073DA95 /* BhagavadGitaUITestsLaunchTests.swift */; };
+		0DAADCB7297AF0A00073DA95 /* BGUtility in Frameworks */ = {isa = PBXBuildFile; productRef = 0DAADCB6297AF0A00073DA95 /* BGUtility */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAADCB7297AF0A00073DA95 /* BGUtility in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,9 @@
 			dependencies = (
 			);
 			name = BhagavadGita;
+			packageProductDependencies = (
+				0DAADCB6297AF0A00073DA95 /* BGUtility */,
+			);
 			productName = BhagavadGita;
 			productReference = 0DAADC83297AF0480073DA95 /* BhagavadGita.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 0DAADC7A297AF0480073DA95;
+			packageReferences = (
+				0DAADCB5297AF0A00073DA95 /* XCRemoteSwiftPackageReference "BGUtility" */,
+			);
 			productRefGroup = 0DAADC84297AF0480073DA95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -585,6 +593,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0DAADCB5297AF0A00073DA95 /* XCRemoteSwiftPackageReference "BGUtility" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nileshcse14/BGUtility";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0DAADCB6297AF0A00073DA95 /* BGUtility */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DAADCB5297AF0A00073DA95 /* XCRemoteSwiftPackageReference "BGUtility" */;
+			productName = BGUtility;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0DAADC91297AF04C0073DA95 /* BhagavadGita.xcdatamodeld */ = {
