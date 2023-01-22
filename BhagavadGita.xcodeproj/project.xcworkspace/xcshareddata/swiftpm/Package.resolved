@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "bgutility",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nileshcse14/BGUtility",
+      "state" : {
+        "revision" : "fe41cf90236f7ba78ac263b8dcc6112c83b45578",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
